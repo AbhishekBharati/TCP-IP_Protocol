@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/abhishek/Desktop/cppDev/TCP-IP_Project/config/config.cpp" "CMakeFiles/TCP_Protocol.dir/config/config.cpp.o" "gcc" "CMakeFiles/TCP_Protocol.dir/config/config.cpp.o.d"
   "/home/abhishek/Desktop/cppDev/TCP-IP_Project/src/main.cpp" "CMakeFiles/TCP_Protocol.dir/src/main.cpp.o" "gcc" "CMakeFiles/TCP_Protocol.dir/src/main.cpp.o.d"
+  "/home/abhishek/Desktop/cppDev/TCP-IP_Project/src/network/socket.cpp" "CMakeFiles/TCP_Protocol.dir/src/network/socket.cpp.o" "gcc" "CMakeFiles/TCP_Protocol.dir/src/network/socket.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

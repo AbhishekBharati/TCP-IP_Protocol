@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_Protocol.dir/build.make CMakeFiles/TCP_Protocol.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/network/socket.o: src/network/socket.cpp.o
+.PHONY : src/network/socket.o
+
+# target to build an object file
+src/network/socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_Protocol.dir/build.make CMakeFiles/TCP_Protocol.dir/src/network/socket.cpp.o
+.PHONY : src/network/socket.cpp.o
+
+src/network/socket.i: src/network/socket.cpp.i
+.PHONY : src/network/socket.i
+
+# target to preprocess a source file
+src/network/socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_Protocol.dir/build.make CMakeFiles/TCP_Protocol.dir/src/network/socket.cpp.i
+.PHONY : src/network/socket.cpp.i
+
+src/network/socket.s: src/network/socket.cpp.s
+.PHONY : src/network/socket.s
+
+# target to generate assembly for a file
+src/network/socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_Protocol.dir/build.make CMakeFiles/TCP_Protocol.dir/src/network/socket.cpp.s
+.PHONY : src/network/socket.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/network/socket.o"
+	@echo "... src/network/socket.i"
+	@echo "... src/network/socket.s"
 .PHONY : help
 
 
